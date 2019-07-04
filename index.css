@@ -1,0 +1,100 @@
+.main {
+    width: 440px;
+    height: 190px;
+}
+
+.header {
+    border-style: solid;
+    border-width: 1px 1px 0px 1px;
+    border-radius: 5px 5px 0 0;
+    height: 40px;
+    background: #4A4949;
+    border-color: #666666;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.content {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 0 0 5px 5px;
+    border-color: #666666;
+    height: 150px;
+    background: #F2F2F2;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+
+.middle-content {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px 5px 5px 5px;
+    border-color: #D5D3D3;
+    background: white;
+    position: absolute;
+    top: 10%;
+    left: 3%;
+    width: 405px;
+    height: 120px;
+}
+
+.bar-frame{
+  margin-top: 10px;
+  margin-left: 45px;
+  position: absolute;
+}
+
+.bar{
+  background-color: rgb(206, 206, 206);
+  width: 150px;
+  height: 15px;
+  float: left;
+  margin-left: 15px;
+  margin-top: 14px;
+  margin-right: 1px;
+}
+
+.bar-complete{
+  width: 85%;
+  background-color: rgb(24, 144, 209);
+  float: left;
+  height: 9px;
+  margin-top: 3px;
+  margin-left: 3px;
+}
+
+.reached{
+  font-family: Arial;
+  color: grey;
+  float: left;
+  width: 80px;
+  font-size: 15px;
+  margin-top: 12px;
+}
+.target{
+  background: linear-gradient(rgb(160, 160, 160), rgb(110, 110, 110));
+  color: white;
+  border-radius: 3px;
+  width: 50px;
+  
+  float: left;
+}
+.target-text{
+	margin-top: 3 px;
+}
+.header-text {
+    color: white;
+    font-family: Arial;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.info{
+  font-family: Arial;
+  margin-top: 75px;
+}
+.arrow{
+  position: absolute;
+  height: 26px;
+  width: 22px;
+  top: 29px;
+  left: 214px;
+}
